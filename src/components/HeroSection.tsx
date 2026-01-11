@@ -17,12 +17,6 @@ const HeroSection = () => {
       }} />
       
       <div className="relative z-10 max-w-lg mx-auto text-center">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium animate-fade-up">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse-soft" />
-          Limited Time Opportunity
-        </div>
-
         {/* Headline */}
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4 text-balance animate-fade-up" style={{ animationDelay: '0.1s' }}>
           Turn Everyday Shopping Into{' '}
