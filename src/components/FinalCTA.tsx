@@ -1,6 +1,13 @@
 import { ArrowRight, Shield, Zap, Smartphone } from "lucide-react";
+import { useAnalytics } from "@/hooks/use-analytics";
 
 const FinalCTA = () => {
+  const { trackCTAClick } = useAnalytics();
+
+  const handleCTAClick = () => {
+    trackCTAClick('final_start_earning');
+  };
+
   return (
     <section className="section-padding bg-background">
       <div className="max-w-lg mx-auto text-center">
@@ -8,7 +15,13 @@ const FinalCTA = () => {
           Ready to Save on Your Next Costco Trip?
         </h2>
         
-        <a href="https://glstrk.com/?offer_ids=OTQxLDM3NjQsMzc2NQ%3D%3D&affiliate_id=MjE2NjQ%3D" target="_blank" rel="noopener noreferrer" className="btn-hero w-full sm:w-auto mb-6">
+        <a 
+          href="https://glstrk.com/?offer_ids=OTQxLDM3NjQsMzc2NQ%3D%3D&affiliate_id=MjE2NjQ%3D" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn-hero w-full sm:w-auto mb-6"
+          onClick={handleCTAClick}
+        >
           Start Earning Now
           <ArrowRight className="w-5 h-5" />
         </a>

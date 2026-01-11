@@ -1,6 +1,13 @@
 import { ArrowRight, Shield, Smartphone, Clock } from "lucide-react";
+import { useAnalytics } from "@/hooks/use-analytics";
 
 const HeroSection = () => {
+  const { trackCTAClick } = useAnalytics();
+
+  const handleCTAClick = () => {
+    trackCTAClick('hero_get_started');
+  };
+
   return (
     <section className="relative min-h-[90vh] flex flex-col justify-center section-padding bg-background overflow-hidden">
       {/* Subtle background pattern */}
@@ -29,7 +36,13 @@ const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="animate-fade-up" style={{ animationDelay: '0.3s' }}>
-          <a href="https://glstrk.com/?offer_ids=OTQxLDM3NjQsMzc2NQ%3D%3D&affiliate_id=MjE2NjQ%3D" target="_blank" rel="noopener noreferrer" className="btn-hero w-full sm:w-auto">
+          <a 
+            href="https://glstrk.com/?offer_ids=OTQxLDM3NjQsMzc2NQ%3D%3D&affiliate_id=MjE2NjQ%3D" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-hero w-full sm:w-auto"
+            onClick={handleCTAClick}
+          >
             Get Started Now
             <ArrowRight className="w-5 h-5" />
           </a>
