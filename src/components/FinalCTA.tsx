@@ -8,7 +8,7 @@ const FinalCTA = () => {
           Ready to Save on Your Next Costco Trip?
         </h2>
         
-        <a href="#how-it-works" className="btn-hero w-full sm:w-auto mb-6">
+        <a href="https://glstrk.com/?offer_ids=OTQxLDM3NjQsMzc2NQ%3D%3D&affiliate_id=MjE2NjQ%3D" target="_blank" rel="noopener noreferrer" className="btn-hero w-full sm:w-auto mb-6">
           Start Earning Now
           <ArrowRight className="w-5 h-5" />
         </a>
