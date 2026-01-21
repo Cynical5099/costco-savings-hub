@@ -15,7 +15,7 @@ const testimonials = [
     initial: "M"
   },
   {
-    quote: "Perfect timing before the holidays. Used it for bulk paper goods and snacks for the kids.",
+    quote: "Thought it was too good to be true honestly. Turned out to be legit - used it for bulk paper goods and holiday snacks.",
     name: "Sarah L.",
     location: "Florida",
     initial: "S"
@@ -27,7 +27,7 @@ const testimonials = [
     initial: "D"
   },
   {
-    quote: "Finally tried one of these offers. Grabbed a free trial I was gonna get anyway and boom - reward earned.",
+    quote: "I almost didn't try because I figured it was a scam. My coworker convinced me and I'm glad she did!",
     name: "Amanda T.",
     location: "Arizona",
     initial: "A"
@@ -39,7 +39,7 @@ const testimonials = [
     initial: "B"
   },
   {
-    quote: "Completed everything on my lunch breaks. Easy deals, real reward. Already planning my next Costco haul.",
+    quote: "Thought it would take forever but knocked out 4 offers in one evening while watching TV. Easy.",
     name: "Nicole P.",
     location: "Colorado",
     initial: "N"
@@ -49,6 +49,30 @@ const testimonials = [
     name: "Carlos V.",
     location: "Nevada",
     initial: "C"
+  },
+  {
+    quote: "I've been burned by these sites before so I was hesitant. This one actually came through within days.",
+    name: "Rachel G.",
+    location: "Ohio",
+    initial: "R"
+  },
+  {
+    quote: "Did it during my lunch breaks over 3 days. Way less time than I expected for a free gift card.",
+    name: "James W.",
+    location: "Michigan",
+    initial: "J"
+  },
+  {
+    quote: "Not gonna lie, I googled 'is this legit' like 5 times before starting. Wish I hadn't wasted time doubting.",
+    name: "Emily S.",
+    location: "Georgia",
+    initial: "E"
+  },
+  {
+    quote: "Some offers took longer than others but overall maybe 2 hours total spread across a few days. Worth it.",
+    name: "Marcus D.",
+    location: "Illinois",
+    initial: "M"
   }
 ];
 
