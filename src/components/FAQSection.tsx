@@ -8,19 +8,27 @@ import {
 const faqs = [
   {
     question: "How many deals do I need to complete?",
-    answer: "You'll need to complete 4-5 deals minimum to qualify for rewards. This ensures you're an engaged participant in our program."
+    answer: "You'll need to complete 4-5 deals minimum to qualify for your Costco reward. This helps verify you're an active participant."
   },
   {
     question: "What types of deals are available?",
-    answer: "Deals include mobile games & apps, subscription services, free trials, and product purchases. There's a variety to choose from based on your interests."
+    answer: "Deals include mobile games & apps, subscription services, free trials, and product purchases. Choose the ones that fit your lifestyle."
   },
   {
     question: "Are the deals free?",
-    answer: "Some deals are completely free (like app downloads or free trials), while others require a purchase. You choose which ones work best for you."
+    answer: "Some deals are completely free (like app downloads or free trials), while others require a purchase. You pick what works for you."
+  },
+  {
+    question: "Do I need a Costco membership?",
+    answer: "A Costco membership is required to use the gift card in-warehouse, but you can also use it on Costco.com without a membership for most items."
   },
   {
     question: "How long does it take to get my reward?",
-    answer: "Once you've completed the required deals and they've been verified, rewards are typically processed within a few business days."
+    answer: "Once you've completed the required deals and they're verified, rewards are typically processed within a few business days."
+  },
+  {
+    question: "Can I use this at any Costco?",
+    answer: "Yes! Your reward works at any Costco warehouse location in the US, as well as on Costco.com and for Costco gas."
   }
 ];
 
