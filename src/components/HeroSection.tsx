@@ -19,13 +19,13 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-lg mx-auto text-center">
         {/* Headline */}
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-foreground mb-4 text-balance animate-fade-up" style={{ animationDelay: '0.1s' }}>
-          Turn Everyday Shopping Into{' '}
-          <span className="gradient-text">Costco Savings</span>
+          Get a Free{' '}
+          <span className="gradient-text">Costco Gift Card</span>
         </h1>
 
         {/* Subheadline */}
         <p className="text-lg text-muted-foreground mb-8 text-balance animate-fade-up" style={{ animationDelay: '0.2s' }}>
-          Complete a few quick steps and unlock Costco rewards people are using for groceries, household essentials, and more.
+          Just finish a few easy offers. People are using theirs for groceries, gas, and bulk buys.
         </p>
 
         {/* CTA Button */}
