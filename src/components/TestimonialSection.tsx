@@ -3,73 +3,73 @@ import { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    quote: "Honestly almost scrolled past this thinking it was another scam. Glad I didn't - got my card in like 4 days lol",
+    quote: "Thought it was fake. It wasn't. Got my card in 4 days.",
     name: "Jessica M.",
     location: "California",
     initial: "J"
   },
   {
-    quote: "My husband kept rolling his eyes at me while I did the offers. Then I came home with $750 worth of groceries 😂",
+    quote: "My husband laughed at me. Then I came home with $700 in groceries.",
     name: "Danielle R.",
     location: "Texas",
     initial: "D"
   },
   {
-    quote: "Ngl I put this off for weeks because I assumed it was fake. Finally tried it on a boring Sunday and it actually worked??",
+    quote: "Put it off for weeks thinking it was a scam. Finally tried it. It worked.",
     name: "Marcus L.",
     location: "Florida",
     initial: "M"
   },
   {
-    quote: "Did most of the deals while waiting in the school pickup line. Easiest 'free money' I've made as a mom.",
+    quote: "Did the offers in the school pickup line. Easiest free stuff ever.",
     name: "Sarah K.",
     location: "Washington",
     initial: "S"
   },
   {
-    quote: "I'm the skeptical friend who never falls for stuff like this. Had to eat my words when the gift card showed up.",
+    quote: "I never trust these things. Had to eat my words when the card showed up.",
     name: "Amanda T.",
     location: "Arizona",
     initial: "A"
   },
   {
-    quote: "Spent maybe an hour total over 3 days? Used it all on gas and those massive packs of paper towels.",
+    quote: "Maybe an hour of my time. Used it on gas and paper towels.",
     name: "Brian H.",
     location: "Oregon",
     initial: "B"
   },
   {
-    quote: "Thought I'd need to spend all day on this but finished while binge watching Netflix. Barely noticed.",
+    quote: "Did the offers while watching TV. Didn't even feel like work.",
     name: "Nicole P.",
     location: "Colorado",
     initial: "N"
   },
   {
-    quote: "Showed my sister and she literally said 'yeah right' until I sent her a pic of my receipt lmao",
+    quote: "Showed my sister. She said no way. Then I sent her my receipt.",
     name: "Carlos V.",
     location: "Nevada",
     initial: "C"
   },
   {
-    quote: "Been burned by these reward sites before so I was super paranoid. This one's different - actually legit.",
+    quote: "Been burned by these sites before. This one actually came through.",
     name: "Rachel G.",
     location: "Ohio",
     initial: "R"
   },
   {
-    quote: "Did it during lunch breaks at work. Coworkers thought I was nuts until I told them about my Costco haul.",
+    quote: "Did it on my lunch break. Coworkers didn't believe me until I showed them.",
     name: "James W.",
     location: "Michigan",
     initial: "J"
   },
   {
-    quote: "I googled 'is this a scam' like 10 times before starting 😅 Wish I'd just done it sooner tbh",
+    quote: "Googled if it was a scam like 10 times. Should've just done it.",
     name: "Emily S.",
     location: "Georgia",
     initial: "E"
   },
   {
-    quote: "Some offers were quicker than others but honestly wasn't bad. Now I'm stocked up on snacks for the kids.",
+    quote: "Some offers took longer but it wasn't bad. Now I'm stocked up.",
     name: "Kevin D.",
     location: "Illinois",
     initial: "K"
