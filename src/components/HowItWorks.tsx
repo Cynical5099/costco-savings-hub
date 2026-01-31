@@ -1,26 +1,26 @@
-import { Mail, ListChecks, Gift } from "lucide-react";
+import { Mail, ListChecks, ShoppingCart } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       number: "01",
       icon: Mail,
-      title: "Sign Up",
-      description: "Enter your email to access the reward portal.",
-      note: "Used only for reward updates.",
+      title: "Enter Your Email",
+      description: "This is how you'll receive updates about your reward status.",
+      note: null,
     },
     {
       number: "02",
       icon: ListChecks,
-      title: "Complete Offers",
-      description: "Follow the instructions on available deals.",
-      note: "Most take only a few minutes.",
+      title: "Complete a Few Offers",
+      description: "You'll see a list of available offers. These may include app downloads, free trials, or sign-ups.",
+      note: "Most people finish in 20-30 minutes. Some offers are completely free.",
     },
     {
       number: "03",
-      icon: Gift,
-      title: "Use Your Reward",
-      description: "After verification, use your Costco reward for groceries, essentials, or household items.",
+      icon: ShoppingCart,
+      title: "Use Your Reward at Costco",
+      description: "Once verified, your reward can be used for groceries, gas, or anything Costco sells.",
       note: null,
     },
   ];
@@ -28,12 +28,12 @@ const HowItWorks = () => {
   return (
     <section id="how-it-works" className="section-padding bg-background">
       <div className="max-w-lg mx-auto">
-        <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-            How It Works
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+            How This Works
           </h2>
-          <p className="text-muted-foreground">
-            Three simple steps to start saving
+          <p className="text-muted-foreground text-sm">
+            No tricks. Here's exactly what to expect.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ const HowItWorks = () => {
               className="step-card flex gap-4"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Step number */}
+              {/* Step icon */}
               <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
                 <step.icon className="w-6 h-6 text-primary" />
               </div>
@@ -63,7 +63,7 @@ const HowItWorks = () => {
                   {step.description}
                 </p>
                 {step.note && (
-                  <p className="text-xs text-muted-foreground/70 mt-2 italic">
+                  <p className="text-xs text-muted-foreground/70 mt-2">
                     {step.note}
                   </p>
                 )}
